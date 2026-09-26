@@ -80,6 +80,7 @@ body{
 .card .card-contact-box .card-icon-info{
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 .card .card-contact-box .card-icon-info i{
     background: #642a32;
@@ -96,4 +97,23 @@ body{
     text-align: center;
     justify-content: center;
     gap: 5px;
+}
+@media (max-width: 400px){
+    .card{
+        width: 250px;
+        padding: 20px 23px;
+    }
+    .card .card-image-box{
+        height: 200px;
+    }
+    .card .card-title{
+        font-size: 36px;
+    }
+    .card .card-name{
+        font-size: 9px;
+        letter-spacing: 4px;
+    }
+    .card .card-icon-info{
+        font-size: 13px;
+    }
 }
